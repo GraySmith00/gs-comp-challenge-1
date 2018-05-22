@@ -11,9 +11,9 @@ Winnie
 
 ### Photo of my Portfolio
 
-![alt text](./images/winniePortfolioScreenShot.png 'Logo Title Text 1')
+![alt text](./images/winniePortfolioScreenShot.png?raw=true 'Logo Title Text 1')
 
 ### This portfolio was based on this Spec
 
 Inline-style:
-![alt text](./images/compScreenShot.png 'Logo Title Text 1')
+![alt text](./images/compScreenShot.png?raw=true 'Logo Title Text 1')
