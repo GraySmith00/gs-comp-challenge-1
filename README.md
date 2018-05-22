@@ -11,9 +11,8 @@ Winnie
 
 ### Photo of my Portfolio
 
-![alt text](https://i.imgur.com/9v8sk86.png 'Logo Title Text 1')
+![alt text](https://i.imgur.com/Lv2ZNVC.png 'Logo Title Text 1')
 
 ### This portfolio was based on this Spec
 
-Inline-style:
 ![alt text](https://i.imgur.com/uuo5z8K.png 'Logo Title Text 1')
