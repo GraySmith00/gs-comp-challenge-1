@@ -7,7 +7,7 @@ Winnie
 
 ### Visit my Portfolio on Github Pages here
 
-[View Portfolio](https://www.google.com "Google's Homepage")
+[View Portfolio](https://graysmith00.github.io/gs-comp-challenge-1/){:target="\_blank"}
 
 ### Photo of my Portfolio
 
