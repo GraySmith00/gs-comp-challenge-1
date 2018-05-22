@@ -89,6 +89,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.tile-item:hover p {
+  display: none;
+}
+
+.tile-item:hover i {
+  display: none;
 }
 
 .tile-item p {
@@ -109,6 +121,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.tile1:hover p {
+  display: block;
+}
+
+.tile1:hover i {
+  display: inline;
 }
 
 .tile1 h1 {
@@ -145,28 +165,56 @@ body {
   background-color: #7b3551;
 }
 
+.tile2:hover {
+  background-image: url('./public/images/winnie1.png');
+}
+
 .tile3 {
   background-color: #103339;
+}
+
+.tile3:hover {
+  background-image: url('./public/images/winnie2.png');
 }
 
 .tile4 {
   background-color: #c42f59;
 }
 
+.tile4:hover {
+  background-image: url('./public/images/winnie3.png');
+}
+
 .tile5 {
   background-color: #5e3f50;
+}
+
+.tile5:hover {
+  background-image: url('./public/images/winnie4.png');
 }
 
 .tile6 {
   background-color: #254750;
 }
 
+.tile6:hover {
+  background-image: url('./public/images/winnie5.png');
+}
+
 .tile7 {
   background-color: #7b3551;
 }
 
+.tile7:hover {
+  background-image: url('./public/images/winnie6.png');
+}
+
 .tile8 {
   background-color: #103339;
+}
+
+.tile8:hover {
+  background-image: url('./public/images/winnie7.png');
 }
 
 @media only screen and (max-width: 821px) {
