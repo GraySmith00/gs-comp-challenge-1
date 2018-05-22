@@ -8,6 +8,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
     Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  height: 100vh;
+  background-color: #254750;
 }
 
 .page-container {
@@ -76,7 +78,6 @@ body {
 }
 
 .tiles {
-  background-color: #254750;
   flex: 6;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
