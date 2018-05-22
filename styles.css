@@ -79,6 +79,7 @@ body {
   flex: 6;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
   color: #fff;
 }
 
@@ -102,7 +103,7 @@ body {
 
 .tile1 {
   grid-column: span 2;
-  padding: 0 0 0 2rem;
+  padding: 0 2rem 0 2rem;
   background-color: #254750;
 
   display: flex;
@@ -121,15 +122,21 @@ body {
 
 .tile1 div i {
   font-size: 0.6rem;
+  margin-right: 5px;
 }
 
-.tile1 div button {
+.tile1 button {
   padding: 10px 20px;
   margin-right: 20px;
 
   border: 2px solid #fff;
   background-color: inherit;
   color: #fff;
+}
+
+.tile1 button:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.2s;
 }
 
 .tile2 {
@@ -160,13 +167,14 @@ body {
   background-color: #103339;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 821px) {
   .page-container {
     flex-direction: column;
   }
 
   .tiles {
     order: 1;
+    grid-template-rows: none;
   }
 }
 
